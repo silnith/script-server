@@ -1,0 +1,7 @@
+#include "dom.idl"
+
+module server {
+  interface ScriptServer {
+    void executeScript(in string script, in dom::Document document);
+  };
+};
